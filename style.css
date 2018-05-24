@@ -1,0 +1,77 @@
+#pad{
+    width: 1000px;
+    height: 700px;
+    margin: 10px auto;
+    
+    padding: 50px;
+}
+#heart{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    transform: rotate(45deg);
+    margin: 15px;
+    /* animation: swing 1s; */
+}
+.squery{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.circle1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 20px;
+}
+@keyframes swing{
+    0%{margin:15px 15px;}
+    25%{margin:100px 100px;}
+    50%{margin:900px 20px;}
+    75%{margin:20px 900px;}
+    100%{margin:300px 300px;}
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%{margin:15px 15px;}
+    25%{margin:100px 100px;}
+    50%{margin:900px 20px;}
+    75%{margin:20px 900px;}
+    100%{margin:300px 300px;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    0%{margin:15px 15px;}
+    25%{margin:100px 100px;}
+    50%{margin:900px 20px;}
+    75%{margin:20px 900px;}
+    100%{margin:300px 300px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    0%{margin:15px 15px;}
+    25%{margin:100px 100px;}
+    50%{margin:900px 20px;}
+    75%{margin:20px 900px;}
+    100%{margin:300px 300px;}
+}

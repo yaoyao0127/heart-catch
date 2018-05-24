@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小心心送给你</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pad">
+        <div id="heart" onmouseover="run()">
+            <div class="squery"></div>
+            <div class="circle1"></div>
+             <div class="circle2"></div>
+        </div>
+
+    </div>
+<script>
+    function run(){
+        a=Math.random()*500;
+        str=a.toString();
+        str=str+'px';
+        console.log(str);
+       document.getElementById("heart").style.margin=str;
+        console.log(document.getElementById("heart").style.margin);
+    }
+</script>
+</body>
+</html>
